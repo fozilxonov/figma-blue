@@ -1,0 +1,143 @@
+.stellar {
+    margin-top: 128px;
+
+}
+
+.stellar__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stellar__col {
+
+    height: 691px;
+    background: url(images/stellar.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .stellar__title {
+        width: 464px;
+        color: var(--White, #FFF);
+        /* Heading 1 */
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 74px;
+        /* 137.037% */
+    }
+
+
+    .stellar__op {
+        height: 691px;
+        background: rgba(28, 30, 83, 0.50);
+        padding-top: 96px;
+        padding-left: 96px;
+        padding-right: 96px;
+
+        .stellar__text {
+
+            margin-top: 24px;
+            color: #ededed;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            /* 175% */
+        }
+    }
+
+
+
+
+
+}
+
+
+.stellar__col1 {
+    background: #1C1E53;
+    height: 691px;
+    width: 624px;
+
+    .title__2 {
+        color: #FFF;
+        margin-top: 96px;
+        margin-left: 96px;
+        /* Heading 5 */
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        /* 150% */
+    }
+
+    .text__2 {
+        margin-top: 16px;
+        margin-left: 96px;
+        width: 432px;
+        color: var(--Grey, #F4F6FC);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 175% */
+    }
+
+
+}
+
+.inputs {
+    margin-top: 40px;
+    padding-left: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .stellar__input {
+        color: var(--Grey, #F4F6FC);
+        outline: none;
+        /* Paragraph */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        padding-left: 32px;
+        background: none;
+        width: 432px;
+        height: 64px;
+        border-radius: 8px;
+        border: 1.5px solid rgba(255, 255, 255, 0.05);
+    }
+}
+
+.stellar__btn {
+    margin-top: 39px;
+    width: 432px;
+    padding: 15px 0;
+    margin-left: 96px;
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 177.778% */
+    border-radius: 41px;
+    background: #FCD980;
+    border: 0;
+}
+
+.stellar__link {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

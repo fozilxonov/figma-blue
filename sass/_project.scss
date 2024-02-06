@@ -1,0 +1,110 @@
+.project {
+    margin-top: 128px;
+
+}
+
+.project__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+
+        & h1 {
+            color: var(--Dark-blue, #282938);
+
+            /* Heading 2 */
+            font-family: Poppins;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 64px;
+            /* 133.333% */
+        }
+
+        & p {
+            color: #282938;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            /* 175% */
+        }
+    }
+}
+
+.project__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 64px;
+}
+
+.project__col1 {
+   position: relative;
+    z-index: 999;
+
+    & img {
+        z-index: -999;
+
+    }
+}
+
+.project__col2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+
+   
+
+    .project__col4 {
+        padding-left: 6px;
+    }
+}
+
+.project-img {
+    height: 600px;
+}
+
+.rgba {
+    width: 396px;
+    height: 600px;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+   padding-top: 312px;
+  padding-left: 48px;
+  position: absolute;
+  bottom: 7px;
+
+    .rgba__title {
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+        /* 150% */
+    }
+
+    .rgba__text {
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 175% */
+        margin-top: 16px;
+    }
+
+    .rgba__img {
+        margin-top: 40px;
+    }
+}
